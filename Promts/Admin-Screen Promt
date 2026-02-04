@@ -1,0 +1,26 @@
+Nutze weiterhin den Master-Prompt.
+
+Erstelle die Eltern-Aufgabenübersicht basierend auf den Referenzbildern.
+
+DESIGN-VORGABEN:
+- Weißer Hintergrund
+- Oben Titel: „Aufgaben“
+- Darunter ein Segment-Control:
+  - „Offen“ (aktiv, grün)
+  - „Erledigt“ (inaktiv)
+- Aufgaben als Cards
+- Jede Card zeigt:
+  - Name des Kindes (farbig hervorgehoben)
+  - Aufgabentitel
+  - Uhrzeit
+  - Status-Button „Erledigt“
+- Cards:
+  - Abgerundet
+  - Sehr clean
+- Unten Bottom-Bar mit:
+  - mittigem grünem Floating-Plus-Button
+
+KEINE komplexen Formulare.
+KEIN Tabellenlayout.
+
+Liefere eine vollständige HTML-Datei.

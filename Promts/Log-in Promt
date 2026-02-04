@@ -1,0 +1,23 @@
+Nutze weiterhin den Master-Prompt.
+
+Erstelle den Rollenwahl-Screen basierend auf den Referenzbildern.
+
+DESIGN-VORGABEN:
+- Weißer Hintergrund
+- Großer zentrierter Titel: „Wer bist du?“
+- Zwei große, abgerundete Cards nebeneinander untereinander (Single Column, vertikal)
+- Jede Card enthält:
+  - Oben eine Illustration (Eltern / Kind)
+  - Darunter eine fette Überschrift („Eltern“, „Kind“)
+  - Darunter eine kleinere graue Beschreibung
+- Cards haben:
+  - abgerundete Ecken
+  - sehr weichen Schatten
+  - viel Innenabstand
+- KEINE Navigation
+- KEIN Menü
+- KEIN Footer
+
+Die Card selbst ist die Touch-Fläche (kein extra Button).
+
+Liefere eine vollständige HTML-Datei.
