@@ -1,0 +1,36 @@
+Nutze weiterhin den Master-Prompt.
+
+Erstelle den Admin-PIN-Screen (Eltern-Login) basierend auf den Referenzbildern.
+
+DESIGN-VORGABEN (SEHR WICHTIG):
+- Weißer Hintergrund
+- Oben links ein dezenter Zurück-Pfeil (nur visuell, kein Button-Text)
+- Großer, klarer Titel:
+  „Admin Code eingeben“
+- Darunter vier PIN-Kreise:
+  - leer
+  - hellgrau
+  - gleichmäßig verteilt
+- Unter den PIN-Kreisen ein großes numerisches Tastenfeld:
+  - Anordnung: 3x3 + 0
+  - Weiße Tasten
+  - Stark abgerundet
+  - Leichter, weicher Schatten
+- Löschen-Taste unten rechts:
+  - Grauer Hintergrund
+  - Icon (Backspace)
+- Alles zentriert und vertikal ausgerichtet
+- Sehr viel Weißraum
+- Keine zusätzlichen Texte
+- Kein Footer
+- Kein Menü
+- Kein Hinweistext
+- Fokus auf einen einzigen klaren Login-Flow
+
+STIL:
+- Identisch zur Kinder-PIN-Eingabe
+- Aber minimal seriöser (weniger verspielt)
+- Ruhig, clean, iOS-artig
+- Kein Bootstrap-Default-Look
+
+Liefere eine vollständige HTML-Datei mit <!DOCTYPE html>, <head> und <body>.

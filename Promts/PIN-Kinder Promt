@@ -1,0 +1,20 @@
+Nutze weiterhin den Master-Prompt.
+
+Erstelle den Kinder-PIN-Screen basierend auf den Referenzbildern.
+
+DESIGN-VORGABEN:
+- Weißer Hintergrund
+- Oben eine einfache Zurück-Pfeil-Icon (nur visuell)
+- Großer Titel: „Gib deinen Code ein“
+- Darunter vier PIN-Kreise (leer, grau)
+- Darunter ein großes Zahlenfeld (3x3 + 0)
+- Tasten:
+  - Weiß
+  - Abgerundet
+  - Leichter Schatten
+- Löschen-Taste unten rechts mit Icon
+- Alles zentriert
+- Keine weiteren Texte
+- Fokus auf EINEN Flow
+
+Liefere eine vollständige HTML-Datei.
