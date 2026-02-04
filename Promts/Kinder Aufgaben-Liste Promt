@@ -1,0 +1,28 @@
+Nutze weiterhin den Master-Prompt.
+
+Erstelle die Kinder-Aufgabenansicht basierend auf den Referenzbildern.
+
+DESIGN-VORGABEN:
+- Weißer Hintergrund
+- Oben Begrüßung:
+  - „Hi [Name] 👋“
+  - Darunter große Überschrift: „Deine Aufgaben“
+- Aufgaben als einzelne Cards
+- Jede Card enthält:
+  - Links ein farbiges Icon / Emoji
+  - Titel der Aufgabe fett
+  - Darunter Uhrzeit
+  - Optional Punkte in kleiner grauer Schrift
+  - Rechts ein grüner, abgerundeter Button „Erledigt“
+- Cards:
+  - Abgerundet
+  - Leichter Schatten
+  - Klarer Abstand zwischen Cards
+- Unten eine visuelle Bottom-Bar (nur Design)
+  - Zwei filter Buttons Vertikal angeordnet "Alle" und "Erledigt"
+
+KEINE Filter.
+KEINE Einstellungen.
+KEIN Menü.
+
+Liefere eine vollständige HTML-Datei.

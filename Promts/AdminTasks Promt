@@ -1,0 +1,64 @@
+Nutze weiterhin den Master-Prompt.
+
+Erstelle den Admin-Screen „Aufgabe hinzufügen / zuteilen“ basierend auf den Referenzbildern.
+
+ZIEL DES SCREENS:
+Eltern (Admin) können eine neue Aufgabe erstellen und einem Kind zuweisen.
+Der Screen soll einfach, ruhig und formulararm wirken – kein klassisches Web-Formular.
+
+DESIGN-VORGABEN (SEHR WICHTIG):
+- Weißer Hintergrund
+- Oben eine einfache iOS-artige Top-Bar:
+  - Links ein Zurück-Pfeil (nur visuell)
+  - Zentrierter Titel: „Aufgabe hinzufügen“
+
+LAYOUT:
+- Inhalte als vertikale Cards / Input-Blöcke
+- Viel Weißraum zwischen den Blöcken
+- Keine Tabellen
+- Keine harten Rahmen
+
+EINGABEBLÖCKE (in dieser Reihenfolge):
+
+1. KIND AUSWÄHLEN
+- Card mit Icon (Person)
+- Text: „Kind auswählen“
+- Darunter ein Dropdown-ähnliches Feld (nur visuell)
+
+2. AUFGABE
+- Card mit Icon (Clipboard / Aufgabe)
+- Textfeld:
+  - Placeholder: „z. B. Zimmer aufräumen“
+  - Groß, abgerundet
+  - Wirkt wie iOS Input
+
+3. UHRZEIT (optional)
+- Card mit Uhr-Icon
+- Text: „Uhrzeit“
+- Auswahlfeld im iOS-Stil (nur visuell)
+
+4. PUNKTE (optional)
+- Card mit Stern- oder Punkte-Icon
+- Kleines Auswahlfeld
+- Ruhig, nicht verspielt
+
+ABSCHLUSS:
+- Unten ein großer, grüner Primary-Button:
+  „Aufgabe speichern“
+- Button:
+  - Abgerundet
+  - Volle Breite
+  - Deutlich hervorgehoben
+
+STIL:
+- Identisch zu den anderen Admin-Screens
+- Ruhig, clean, iOS-ähnlich
+- Kein Bootstrap-Default-Look
+- Keine unnötigen Labels oder Erklärtexte
+
+WICHTIG:
+- Keine Validierungslogik
+- Keine echten Funktionen
+- Nur UI / UX / Layout
+
+Liefere eine vollständige HTML-Datei mit <!DOCTYPE html>, <head> und <body>.
