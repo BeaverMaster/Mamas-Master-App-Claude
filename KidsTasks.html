@@ -117,41 +117,37 @@
       right: 0;
       background-color: #ffffff;
       border-top: 1px solid #e0e0e0;
-      padding: 0.5rem 1rem;
-      padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
+      padding: 0.75rem 1rem;
+      padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
     }
 
-    .nav-icon {
-      width: 48px;
-      height: 48px;
+    .filter-buttons {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      color: #8e8e93;
-      background: none;
+      gap: 0.75rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .filter-button {
+      background-color: #f5f5f7;
+      color: #000000;
       border: none;
+      border-radius: 10px;
+      padding: 0.65rem 1.25rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: background-color 0.2s;
       cursor: pointer;
+      flex: 1;
     }
 
-    .fab-button {
-      width: 56px;
-      height: 56px;
+    .filter-button.active {
       background-color: #5cb85c;
-      border-radius: 50%;
-      border: none;
       color: #ffffff;
-      font-size: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 12px rgba(92, 184, 92, 0.25);
-      cursor: pointer;
-      font-weight: 300;
-      line-height: 1;
+    }
+
+    .filter-button:active {
+      opacity: 0.8;
     }
 
     /* Home Indicator */
@@ -160,7 +156,7 @@
       height: 5px;
       background-color: #000000;
       border-radius: 3px;
-      margin: 0.5rem auto 0 auto;
+      margin: 0.75rem auto 0 auto;
     }
   </style>
 </head>
@@ -210,10 +206,13 @@
 
 <!-- Bottom Navigation -->
 <div class="bottom-nav">
-  <button class="nav-icon">☰</button>
-  <button class="fab-button">+</button>
-  <button class="nav-icon">✓</button>
-</div>
+  <div class="filter-buttons">
+    <button class="filter-button active">Alle</button>
+    <button class="filter-button">Erledigt</button>
+  </div>
 
+  <!-- Home Indicator -->
+  <div class="home-indicator"></div>
+</div>
 </body>
 </html>
